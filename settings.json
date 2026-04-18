@@ -6,7 +6,7 @@
   },
   "server": {
     "ip": "Lekillarrons.aternos.me",
-    "version": "auto"
+    "version": "1.21.11"
   },
   "position": {
     "enabled": true,
