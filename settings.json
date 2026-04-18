@@ -6,18 +6,11 @@
   },
   "server": {
     "ip": "Lekillarrons.aternos.me",
-    "version": "1.21.11"
-  },
-  "position": {
-    "enabled": true,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "version": "1.20.4"
   },
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": ""
+      "enabled": false
     },
     "anti-afk": {
       "enabled": true,
@@ -25,8 +18,8 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "repeat": false,
+      "repeat-delay": 300,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
@@ -36,26 +29,13 @@
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 60000
   },
   "movement": {
-    "enabled": true,
-    "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": true,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
-    }
+    "enabled": false
   },
   "modules": {
-    "avoidMobs": true,
+    "avoidMobs": false,
     "combat": false,
     "beds": false,
     "chat": true,
@@ -70,13 +50,7 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "",
-    "events": {
-      "connect": false,
-      "disconnect": false,
-      "chat": false
-    }
+    "enabled": false
   },
   "chat": {
     "respond": true
