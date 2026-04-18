@@ -6,7 +6,8 @@
   },
   "server": {
     "ip": "Lekillarrons.aternos.me",
-    "version": "1.20.4"
+    "port": 25565,
+    "version": "1.21.11"
   },
   "utils": {
     "auto-auth": {
@@ -18,12 +19,12 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": false,
-      "repeat-delay": 300,
+      "repeat": true,
+      "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I like Minecraft!"
       ]
     },
     "chat-log": true,
@@ -41,18 +42,10 @@
     "chat": true,
     "console-commands": false
   },
-  "combat": {
-    "attack-mobs": false,
-    "auto-eat": true
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
   "discord": {
     "enabled": false
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
